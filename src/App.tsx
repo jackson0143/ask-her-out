@@ -50,7 +50,7 @@ function App() {
       <img className = "pl-16 pb-8 rounded-lg "src = "https://media.tenor.com/pj-WvOM7W2oAAAAi/mocha-and.gif" alt="gif"></img>
         <p className = "text-center text-2xl md:text-6xl">Will you go out with me?</p>
 
-        <p className = "text-center p-32">
+        <p id = "omg "className = "flex text-center p-32">
             <a onClick={()=> setYesClick(true)} className="bg-white hover:bg-green-500 text-blue-700 font-semibold hover:text-white py-4 px-12 border border-blue-500 hover:border-transparent rounded m-6 SM">Yes</a>
             <a onClick={()=> setNoCount(noCount+1)} className="bg-white hover:bg-red-500 text-blue-700 font-semibold hover:text-white py-4 px-12 border border-blue-500 hover:border-transparent rounded m-6">{getNoPhrases()}</a>
           </p>
